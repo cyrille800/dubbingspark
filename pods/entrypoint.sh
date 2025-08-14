@@ -1,5 +1,5 @@
 #!/bin/bash
-entrypoint.sh - À mettre dans votre repo GitHub
+entrypoint.sh
 
 echo "🚀 Démarrage du serveur FastAPI personnalisé..."
 
