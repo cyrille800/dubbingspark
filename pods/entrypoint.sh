@@ -25,5 +25,5 @@ echo "🎯 Démarrage du serveur..."
 export HOST=0.0.0.0
 export PORT=8000
 
-which python
-python server.py
+which python3
+python3 server.py
