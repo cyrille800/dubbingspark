@@ -27,3 +27,5 @@ export PORT=8000
 
 which python3
 python3 server.py
+
+echo "Oui"
