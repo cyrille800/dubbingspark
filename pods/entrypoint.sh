@@ -1,5 +1,4 @@
 #!/bin/bash
-entrypoint.sh
 
 echo "🚀 Démarrage du serveur FastAPI personnalisé..."
 
