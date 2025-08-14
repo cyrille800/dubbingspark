@@ -1,8 +1,6 @@
 #!/bin/bash
 entrypoint.sh - À mettre dans votre repo GitHub
 
-set -e  # Arrêter en cas d'erreur
-
 echo "🚀 Démarrage du serveur FastAPI personnalisé..."
 
 # Configuration
@@ -16,8 +14,8 @@ cd $WORK_DIR
 
 # Télécharger les fichiers
 echo "📥 Téléchargement des fichiers..."
-curl -f -o main.py https://raw.githubusercontent.com/$GITHUB_USER/$GITHUB_REPO/main/main.py
-curl -f -o requirements.txt https://raw.githubusercontent.com/$GITHUB_USER/$GITHUB_REPO/main/requirements.txt
+curl -f -o server.py https://raw.githubusercontent.com/cyrille800/dubbingspark/main/pods/server.py
+curl -f -o requirements.txt https://raw.githubusercontent.com/cyrille800/dubbingspark/main/pods/requirements.txt
 
 # Installer les dépendances
 echo "📦 Installation des dépendances..."
@@ -28,4 +26,4 @@ echo "🎯 Démarrage du serveur..."
 export HOST=0.0.0.0
 export PORT=8000
 
-python main.py
+python server.py
