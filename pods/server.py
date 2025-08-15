@@ -91,7 +91,7 @@ async def echo_data(data: dict):
 if __name__ == "__main__":
     # Configuration du serveur
     host = os.getenv("HOST", "0.0.0.0")
-    port = int(os.getenv("PORT", 8080))
+    port = int(os.getenv("PORT", 8185))
     
     print(f"🚀 Démarrage du serveur FastAPI...")
     print(f"📍 Adresse: http://{host}:{port}")
