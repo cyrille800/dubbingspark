@@ -23,7 +23,7 @@ pip install -r requirements.txt
 # Démarrer le serveur
 echo "🎯 Démarrage du serveur..."
 export HOST=0.0.0.0
-export PORT=8000
+export PORT=70000
 
 which python3
 python3 server.py
