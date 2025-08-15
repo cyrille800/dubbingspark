@@ -4,6 +4,7 @@ import uvicorn
 import os
 from datetime import datetime
 
+
 # Créer l'instance FastAPI
 app = FastAPI(
     title="Mon Serveur Simple",
